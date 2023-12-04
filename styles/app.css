@@ -1,8 +1,37 @@
 /*font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;*/
-body {
-  background-color: blue;
-}
-h1 {
+ h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6
+ {
   font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: black;
+}
+
+h1{
+    font-size: 96px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+.hero{
+    background:#f4f2f3fe ;
+    text-align: center;
+}
+.hero p{
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+.hero h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 2;
+    color: #c0bbcb;
 }
