@@ -59,6 +59,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4{
+  font-size: 48px ;
+}
 
 p {
   font-weight: normal;
@@ -116,6 +119,7 @@ font-family:var(--default-font-family) ;
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
+  text-decoration: none;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -128,40 +132,72 @@ font-family:var(--default-font-family) ;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  text-decoration: none;
+}
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: white;
 }
 
 .project-desciption {
   padding: 120px 60px;
 }
+footer{
+  margin: 60px 0;
+}
+footer.contact-content{
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
 
+footer.contact-content p{
+  margin: 0;
+}
+footer.email-link{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 24px;
+}
+footer.email-link:hover{
+  color: var(--branding-color);
+}
+footer .social-links a{
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition:all 100ms ease-in-out ;
+}
+footer .social-links a:hover {
+background-color: var(--branding-color);
+color: white;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
+    line-height: 1.5;
   }
-
+h3{
+  font-size: 36px;
+}
   h2 {
     font-size: 44px;
   }
-
-  .hero {
-    padding: 80px 20px;
+  h4{
+    font-size: 20px;
   }
-  .content-container{
+
+  .content{
     text-align: center;
     padding: 0;
   }
-
-
   .project-desciption {
     padding: 0;
     text-align: center;
   }
 }
-.bisluv{
-  width:220px ;
-  height:220px;
-  border: 2px solid rgb(162, 149, 175);
-  border-radius: 10px;
-}
-
