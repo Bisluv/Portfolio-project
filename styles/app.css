@@ -126,7 +126,7 @@ font-family:var(--default-font-family) ;
 }
 
 .btn-branding-outline {
-  color: var(--branding-color);
+  color: var(--secondary-color);
   border: 1px solid var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
@@ -147,7 +147,7 @@ footer{
   margin: 60px 0;
 }
 footer.contact-content{
-  background: var(--secondary-color);
+  background:  var(--branding-color);
   padding: 30px 120px;
   border-radius: 10px;
 }
